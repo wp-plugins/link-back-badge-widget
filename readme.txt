@@ -1,4 +1,4 @@
-=== Simple Drop Cap ===
+=== Link Back Badge Widget ===
 Contributors: maurisrx
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JYU7WUJ27AQAU
 Tags: widget, seo, backlink, badge
