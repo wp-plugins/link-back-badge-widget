@@ -5,7 +5,7 @@
  * Description: Displays a badge and an HTML code box as a widget to ease your site visitor linking back to your website.
  * Author: Yudhistira Mauris
  * Author URI: http://www.yudhistiramauris.com
- * Version: 1.0 
+ * Version: 1.0.1 
  * License: GPLv2
  */
 

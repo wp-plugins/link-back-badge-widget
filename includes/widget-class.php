@@ -68,6 +68,12 @@ class LBBW_Widget extends WP_Widget {
 		return $instance;
 	}
 
+	/**
+	 * Display widget on page
+	 * @param  array $args     built-in arguments of widget
+	 * @param  array $instance value that has been submitted by user
+	 * @return object           badge and html code box on site page
+	 */
 	public function widget( $args, $instance )
 	{
 		extract( $args );
@@ -89,6 +95,10 @@ class LBBW_Widget extends WP_Widget {
 			<div class="lbbw-wrap">
 				<div class="lbbw-image-wrap">
 					<img id="lbbw-image" class="lbbw-image" src="<?php echo esc_url( $image_url ); ?>" title="<?php echo esc_attr( $image_title ); ?>">
+				</div>
+
+				<div class="lbbw-instruction-wrap">
+					<small class="lbbw-instruction">Copy the HTML code below and paste it on your website.</small>
 				</div>
 
 				<div class="lbbw-textarea-wrap">
