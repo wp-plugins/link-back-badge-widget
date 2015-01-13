@@ -3,8 +3,8 @@ Contributors: maurisrx
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JYU7WUJ27AQAU
 Tags: widget, seo, backlink, badge
 Requires at least: 3.0
-Tested up to: 4.0
-Stable tag: 1.0.1
+Tested up to: 4.1
+Stable tag: 1.0.2
 License: GPLv2
 
 Displays a badge and an HTML code box as a widget to ease your site visitor linking back to your website.
@@ -42,6 +42,9 @@ None yet.
 
 = 1.0.1 =
 * Add instruction text
+
+= 1.0.2 =
+* Fix minor bug
 
 == Upgrade Notice ==
 

@@ -19,12 +19,12 @@ class LBBW_Widget extends WP_Widget {
 	public function form( $instance )
 	{
 		$defaults = array(
-			'title' => 'Link Back Badge',
+			'title' => '',
 			'image_url'   => '',
 			'image_title' => '',
 			'website_url' => ''
 		);
-		wp_parse_args( ( array ) $instance, $defaults );
+		$instance = wp_parse_args( ( array ) $instance, $defaults );
 		$title = $instance['title'];
 		$image_url   = $instance['image_url'];
 		$image_title = $instance['image_title'];
